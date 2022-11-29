@@ -2,27 +2,27 @@
  This template is to consume Api , but in this moment the json doesn't work
 # Supermetrics V2
 
-_En este proyecto consumimos una API de supermtrics y los transformamos en un excel con el fin de organizar y automatizar la informacion_
+_In this project we consume a supermetrics API and transform it into an excel in order to organize and automate the information_
 
-## Comenzando 🚀
+## Starting 🚀
 
-_Para obtener el proyecto en tu maquina local porfavor clone el repositorio con el nombre de **Client_Api**, Recuerda que debes tener permiso de la organizacion_
+_To get the project on your local machine please clone the repository with the name of **Client_Api**, remember that you must have permission from the organization_
 
 
-### Pre-requisitos 📋
+### Pre-requirements 📋
 
-_Este proyecto se ejecuta con el software python una vez instalado este.Debes instalar las siguientes dependencias en tu sistema opertivo o entorno vrtual contenidas en el archivo requeriments.txt_
+_This project runs with the python software once it is installed. You must install the following dependencies in your operating system or virtual environment contained in the file requirements.txt_
 
 ```
 pip install -r requeriments.txt
 ```
 
-### Instalación 🔧
+### Facility 🔧
 
 
-1.debes buscar la ruta donde se encuentra los archivos descargados del repositorio de  **Git Hub**, alli encontraras 4 achivos python
-  para ejecutar el archivo principal, debes primero modificar los parametros,pero de igual forma el consumo de la API ya trae unos 
-  parametros por defecto si deseas modificarlos pudes modificarlos debes modificar el objeto dentro del archivo **params.py**
+1.You must look for the path where the files downloaded from the **Git Hub** repository are located, there you will find 4 python files
+  to execute the main file, you must first modify the parameters, but in the same way the consumption of the API already brings some
+  default parameters if you want to modify them you can modify them you must modify the object inside the **params.py** file
 
 
 ```
@@ -38,18 +38,17 @@ pip install -r requeriments.txt
 
 ```
 
-2.debes establecer la ruta en la que va a terminar la data contenida en el el archivo excel ,esta tambien puede ser modificada en el arhivo **params.py**
+2.You must establish the route in which the data contained in the excel file will end, this can also be modified in the file **params.py**
 
 ```
 self.Route = 'C:\\Users\\Santiago\\Documents\\GitHub\\Client_Api\\Supermetrics.xlsx'
 
 ```
 
-## Ejecutando las pruebas ⚙️
+## running the tests ⚙️
 
 
-_Una vez establecidos los parametros se debe ejecutar el archivo **main.py** en caso de presentarse un error con el consumo de la API el sistema arrojara un mensaje con el error 
-presentado,para ejecutarlo desde la consola en windows se puede usar el siguiente comando_
+_Once the parameters have been established, the file **main.py** must be executed in case of an error with the consumption of the API, the system will throw a message with the error presented, to execute it from the console in windows you can use the next command_
 
 
 ```
@@ -59,7 +58,7 @@ python main.py
 
 
 
-### Analice las pruebas end-to-end 🔩
+### Analyze end-to-end tests 🔩
 
 
 _Si todo el proceso se ejecuta correctamente, te saldran los siguientes los mensajes en la terminal de comandos_
@@ -71,13 +70,13 @@ _Si todo el proceso se ejecuta correctamente, te saldran los siguientes los mens
 
 ```
 
-### estilo de codificación ⌨️
+### coding style ⌨️
 
-_Este programa se modularizo en su totalidad mediante programcion orientada a objetos y tambien se intento codificar bajo el regimen del **pep 8**_
+_This program was completely modularized through object-oriented programming and also attempted to be codified under the **pep 8** regime._
 
 
 
-## Construido con 🛠️
+## built with 🛠️
 
 * [PEP-8](https://peps.python.org/pep-0008/#id8)- Guia de Parametrizacion
 * [OPENPYXL](https://openpyxl.readthedocs.io/en/stable/) - Libreria manipulacion excel
@@ -85,16 +84,14 @@ _Este programa se modularizo en su totalidad mediante programcion orientada a ob
 * [REQUEST](https://requests.readthedocs.io/en/latest/) - Libreria consumo API
 * [FASTAPI](https://fastapi.tiangolo.com/) - Freamwork API
 
-## Versionado 📌
+## Versioning 📌
 
-Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/di-contactica/Client_Api/commits/main).
+For all available versions, see the [tags en este repositorio](https://github.com/di-contactica/Client_Api/commits/main).
 
 ## Autores ✒️
 
 
 * **Santiago Novoa** - *Trabajo Inicial - Documentacion * - [Frealexandro](https://github.com/frealexandro)
-
-* También puedes mirar la lista de todos los [contribuyentes](https://github.com/orgs/di-contactica/people) quíenes han participado en este proyecto. 
 
 
 ## Expresiones de Gratitud 🎁
