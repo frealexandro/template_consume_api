@@ -1,17 +1,18 @@
 # Template_Consume_API
- This template is to consume Api , but in this moment the json doesn't work
+ This template is to consume an API, however, the JSON functionality is currently not working.
+
 # Supermetrics V2
 
 _In this project we consume a supermetrics API and transform it into an excel in order to organize and automate the information_
 
 ## Starting 🚀
 
-_To get the project on your local machine please clone the repository with the name of **Client_Api**, remember that you must have permission from the organization_
+_To get the project on your local machine, please clone the repository named Client_Api. Note that you must have permission from the organization._
 
 
 ### Pre-requirements 📋
 
-_This project runs with the python software once it is installed. You must install the following dependencies in your operating system or virtual environment contained in the file requirements.txt_
+_This project runs on Python, so you must have it installed on your operating system or virtual environment. You must also install the dependencies listed in the 'requirements.txt file'. To install the dependencies, use the following command:_
 
 ```
 pip install -r requeriments.txt
@@ -20,9 +21,7 @@ pip install -r requeriments.txt
 ### Facility 🔧
 
 
-1.You must look for the path where the files downloaded from the **Git Hub** repository are located, there you will find 4 python files
-  to execute the main file, you must first modify the parameters, but in the same way the consumption of the API already brings some
-  default parameters if you want to modify them you can modify them you must modify the object inside the **params.py** file
+1.Locate the path where the files downloaded from the GitHub repository are located. You will find four python files. To execute the main file, you must first modify the parameters. However, the API consumption already has some default parameters. If you wish to modify them, you can do so in the **params.py** file.
 
 
 ```
@@ -38,7 +37,7 @@ pip install -r requeriments.txt
 
 ```
 
-2.You must establish the route in which the data contained in the excel file will end, this can also be modified in the file **params.py**
+2.Set the route where the data in the excel file will be saved. This can also be modified in the **params.py** file.
 
 ```
 self.Route = 'C:\\Users\\Santiago\\Documents\\GitHub\\Client_Api\\Supermetrics.xlsx'
@@ -48,7 +47,7 @@ self.Route = 'C:\\Users\\Santiago\\Documents\\GitHub\\Client_Api\\Supermetrics.x
 ## running the tests ⚙️
 
 
-_Once the parameters have been established, the file **main.py** must be executed in case of an error with the consumption of the API, the system will throw a message with the error presented, to execute it from the console in windows you can use the next command_
+_Once the parameters have been set, execute the main.py file. If there is an error with the API consumption, the system will display a message with the error. To execute it from the command prompt on Windows, use the following command:_
 
 
 ```
@@ -61,7 +60,7 @@ python main.py
 ### Analyze end-to-end tests 🔩
 
 
-_Si todo el proceso se ejecuta correctamente, te saldran los siguientes los mensajes en la terminal de comandos_
+_If the process is executed successfully, the following messages will appear in the command prompt:_
 
 ```
 'Exportano archivo a un Dataframe'
@@ -72,7 +71,7 @@ _Si todo el proceso se ejecuta correctamente, te saldran los siguientes los mens
 
 ### coding style ⌨️
 
-_This program was completely modularized through object-oriented programming and also attempted to be codified under the **pep 8** regime._
+_This program is completely modularized using object-oriented programming and adheres to the PEP 8 coding style guidelines._
 
 
 
@@ -88,12 +87,8 @@ _This program was completely modularized through object-oriented programming and
 
 For all available versions, see the [tags en este repositorio](https://github.com/di-contactica/Client_Api/commits/main).
 
-## Autores ✒️
+## Autors ✒️
 
 
 * **Santiago Novoa** - *Trabajo Inicial - Documentacion * - [Frealexandro](https://github.com/frealexandro)
 
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
